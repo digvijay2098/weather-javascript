@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.search-city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#city{
+    width: 40vh;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.search{
+    
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.section-degree{
+    display: flex;
+    align-items: center;  
+    cursor: pointer; 
+}
+
+.section-degree span{
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.section-degree h2{
+    font-size: xxx-large;
+}
