@@ -17,6 +17,29 @@ body{
     color: white;
 }
 
+.search-city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#city{
+    width: 40vh;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.search{
+    
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
 
 .location, .temperature{
     height: 30vh;
